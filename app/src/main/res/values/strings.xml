@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Mynewapplication</string>
+    <string name="button">Click Here</string>
+    <string name="this_is_my_first_application_on_the_andriod_platfoam_and_i_created_it_myself">This is my first Application on the Andriod Platfoam and I created it myself!!</string>
+    <string name="finger">finger</string>
+    <string name="Convert">Convert</string>
+    <string name="password">Password</string>
+    <string name="user_name">Username</string>
+    <string name="forgot_your_password">FORGOT YOUR PASSWORD?</string>
+    <string name="email">EMAIL</string>
+    <string name="welcome">WELCOME</string>
+    <string name="Dumy">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,</string>
+    <string name="lets_start">LETS Start</string>
+    <string name="app_design">APP DESIGN</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="number_converter">Number Converter</string>
+    <string name="enter_the_value">Enter the value</string>
+    <string name="result_is">Result is:</string>
+    <string name="centimeter_to_feet">Centimeter to Feet</string>
+    <string name="c_to_f">°C to °F</string>
+    <string name="cm_to_feet">CM to Feet</string>
+</resources>

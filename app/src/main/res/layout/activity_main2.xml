@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:text="@string/Convert"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="407dp"
+        android:src="@drawable/buttn">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/string"
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="446dp"
+        android:ems="15"
+        android:hint="@string/enter_the_value"
+        android:textColorHint="#31000000"
+        android:inputType="numberDecimal"
+        android:autofillHints="Value">
+
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="526dp"
+        android:gravity="center"
+        android:text="@string/c_to_f"
+        android:textColor="@color/white"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="290dp"
+        android:text="@string/result_is"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"></TextView>
+
+</RelativeLayout>

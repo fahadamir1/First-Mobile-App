@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/convert"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="360dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:text="@string/Convert"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="407dp"
+        android:src="@drawable/buttn">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/string"
+        android:layout_width="210dp"
+        android:layout_height="63dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="446dp"
+        android:ems="15"
+        android:hint="@string/enter_the_value"
+        android:textColorHint="#31000000"
+        android:inputType="numberDecimal">
+
+
+    </EditText>
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="105dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="526dp"
+        android:gravity="center"
+        android:text="Decimal to binary"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="290dp"
+        android:text="@string/result_is"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/nextact"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="225dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:onClick="openmain1"
+        android:text="@string/cm_to_feet"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/cashier"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="84dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:onClick="cashier"
+        android:text="Cashier Machine"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/Celcious"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="154dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:onClick="Celsius1"
+        android:text="@string/c_to_f"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
+</RelativeLayout>
