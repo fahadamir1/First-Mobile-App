@@ -57,5 +57,9 @@ public class MainActivity extends AppCompatActivity {
     public void Celsius1(View view) {
         startActivity(new Intent(this,MainActivity2.class));
     }
+
+    public void Game(View view) {
+        startActivity(new Intent(this,practicing.class));
+    }
 }
 

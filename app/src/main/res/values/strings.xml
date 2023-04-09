@@ -19,4 +19,7 @@
     <string name="centimeter_to_feet">Centimeter to Feet</string>
     <string name="c_to_f">°C to °F</string>
     <string name="cm_to_feet">CM to Feet</string>
+    <string name="welcome_to_the_tick_tac_toe">Welcome to the Tick Tac Toe</string>
+    <string name="game_won">Game Won:</string>
+    <string name="space">---</string>
 </resources>

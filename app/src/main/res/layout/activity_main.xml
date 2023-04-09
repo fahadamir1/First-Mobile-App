@@ -133,4 +133,21 @@
         android:textSize="18sp"
         android:textStyle="normal" />
 
+    <Button
+        android:id="@+id/game"
+        android:layout_width="156dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="157dp"
+        android:background="@drawable/butn"
+        android:gravity="center"
+        android:onClick="Game"
+        android:text="Tick Tac Game"
+        android:textAllCaps="false"
+        android:textColor="@color/pink"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+
 </RelativeLayout>
